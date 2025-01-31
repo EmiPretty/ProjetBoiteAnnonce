@@ -3,7 +3,7 @@
 ## Pour commencer
 
 # Auteurs :
-Nassim Bentifraouine
+Nassim Bentifraouine et 
 Imene Bentifraouine
 
 **⚠️ Attention importante ⚠️** :
