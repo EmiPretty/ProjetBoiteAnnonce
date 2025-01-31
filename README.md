@@ -2,6 +2,10 @@
 
 ## Pour commencer
 
+# Auteurs :
+Nassim Bentifraouine
+Imene Bentifraouine
+
 **⚠️ Attention importante ⚠️** :
     Contacter moi pour obtenir le fichier .env :
     Le fichier .env est essentiel pour le bon fonctionnement de l'application, car il contient les variables d'environnement nécessaires (comme les clés API, les informations de connexion à la base de données, etc.). Ne partagez jamais ce fichier publiquement. Si vous n'avez pas encore le fichier .env, contactez-moi pour que je vous le fournisse.
