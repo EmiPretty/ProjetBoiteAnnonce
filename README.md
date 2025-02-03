@@ -1,45 +1,55 @@
 # Projet Next.js
 
-## Pour commencer
+## Auteurs
+**Nassim Bentifraouine**  
+**Imene Bentifraouine**
 
-# Auteurs :
-Nassim Bentifraouine et 
-Imene Bentifraouine
+---
 
-**⚠️ Attention importante ⚠️** :
-    Contacter moi pour obtenir le fichier .env :
-    Le fichier .env est essentiel pour le bon fonctionnement de l'application, car il contient les variables d'environnement nécessaires (comme les clés API, les informations de connexion à la base de données, etc.). Ne partagez jamais ce fichier publiquement. Si vous n'avez pas encore le fichier .env, contactez-moi pour que je vous le fournisse.
+## Prérequis
+Avant de commencer, assurez-vous d'avoir les outils suivants installés sur votre machine :
 
-    N'hésitez pas à me contacter si vous avez des questions ou des problèmes lors de la configuration du projet ! 😊
+- [Node.js](https://nodejs.org/) (version recommandée : 16.x ou plus récente)
+- [npm](https://www.npmjs.com/)
 
-1. **Installer les dépendances** :  
-    Avant de pouvoir exécuter le projet, vous devez installer les dépendances nécessaires. Pour cela, exécutez la commande suivante dans votre terminal :
+---
 
-   ```bash
-   npm install
-   ```
+## Configuration du projet
 
-   Pour l'authentification compte classique et OAuth2 j'ai utiliser NextAuth 
+### 1. Récupérer le fichier `.env`
 
-   Cette commande installera tous les packages listés dans le fichier package.json.
+⚠️ **Attention importante** ⚠️ : Le fichier `.env` est essentiel pour le bon fonctionnement de l'application, car il contient les variables d'environnement nécessaires (clés API, informations de connexion à la base de données, etc.). **Ne partagez jamais ce fichier publiquement**.
 
-    Générer le client Prisma :
-    Si ce projet utilise Prisma (un ORM pour Node.js), vous devez générer le client Prisma. Exécutez la commande suivante :
+Pour obtenir ce fichier, veuillez me contacter directement.  
+Sans ce fichier, l'application ne pourra pas fonctionner correctement.
 
-    ```bash
-    npx prisma generate
-    ```
+---
 
-    Cette commande générera le client Prisma en fonction de votre schéma Prisma (schema.prisma), ce qui vous permettra d'interagir avec votre base de données.
+### 2. Installation des dépendances
 
-    Démarrer le serveur de développement :
-    Une fois les étapes précédentes terminées, vous pouvez démarrer le serveur de développement en exécutant :
+Dans le répertoire du projet, exécutez la commande suivante pour installer toutes les dépendances listées dans le fichier `package.json` :
 
-    ```bash
-    npm run dev
-    ```
+```bash
+npm install
 
-    Cela lancera le serveur de développement Next.js, et vous pourrez accéder à votre application en ouvrant http://localhost:3000 dans votre navigateur.
+### 2. Configuration Prisma
 
-    Modifier la page
-    Vous pouvez commencer à éditer la page en modifiant le fichier app/page.tsx. Les modifications que vous apportez seront automatiquement reflétées dans le navigateur grâce au rechargement automatique (hot-reloading).
+Ce projet utilise Prisma comme ORM pour interagir avec la base de données.
+
+Assurez-vous que votre base de données est bien configurée et accessible.
+
+Modifiez le fichier .env pour inclure l'URL de connexion à votre base de données.
+
+Générez le client Prisma en exécutant la commande suivante :
+
+```bash
+npx prisma generate
+
+### 4. Lancer le serveur de développement
+
+Une fois toutes les étapes précédentes terminées, vous pouvez démarrer le serveur de développement avec la commande :
+
+```bash
+npm run dev
+
+L'application sera accessible à l'adresse suivante :http://localhost:3000
