@@ -31,6 +31,7 @@ Dans le répertoire du projet, exécutez la commande suivante pour installer tou
 
 ```bash
 npm install
+```
 
 ---
 
@@ -40,12 +41,13 @@ Ce projet utilise Prisma comme ORM pour interagir avec la base de données.
 
 Assurez-vous que votre base de données est bien configurée et accessible.
 
-Modifiez le fichier .env pour inclure l'URL de connexion à votre base de données.
+Modifiez le fichier `.env` pour inclure l'URL de connexion à votre base de données.
 
 Générez le client Prisma en exécutant la commande suivante :
 
 ```bash
 npx prisma generate
+```
 
 ---
 
@@ -55,5 +57,6 @@ Une fois toutes les étapes précédentes terminées, vous pouvez démarrer le s
 
 ```bash
 npm run dev
+```
 
-L'application sera accessible à l'adresse suivante :http://localhost:3000
+L'application sera accessible à l'adresse suivante : [http://localhost:3000](http://localhost:3000)
