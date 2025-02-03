@@ -32,7 +32,9 @@ Dans le répertoire du projet, exécutez la commande suivante pour installer tou
 ```bash
 npm install
 
-### 2. Configuration Prisma
+---
+
+### 3. Configuration Prisma
 
 Ce projet utilise Prisma comme ORM pour interagir avec la base de données.
 
@@ -44,6 +46,8 @@ Générez le client Prisma en exécutant la commande suivante :
 
 ```bash
 npx prisma generate
+
+---
 
 ### 4. Lancer le serveur de développement
 
